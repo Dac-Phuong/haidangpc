@@ -1,0 +1,33 @@
+.nav-top {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  background-color: #05427a;
+  color: #fff;
+}
+.nav-heading {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1400px;
+  justify-content: space-between;
+  transition: 0.5s;
+}
+.nav-heading h3 ,.nav-phone a {
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-location {
+  display: flex;
+  align-items: center;
+}
+.nav-location:hover ,.nav-phone:hover{
+  color: antiquewhite;
+}
+.nav-phone {
+  display: flex;
+  align-items: center;
+}
+

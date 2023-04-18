@@ -1,0 +1,28 @@
+{
+  "category": [
+    {
+      "id": 1,
+      "image": "https://noithattrevietnam.com/uploaded/Kien-thuc-nha-dep/cac-cong-ty-thiet-ke-noi-that-uy-tin/danh-sach-cong-ty-thiet-ke-noi-that-uy-tin.jpg",
+      "title": "Kingdom Tower",
+      "name": "Marble Flooring"
+    },
+    {
+        "id": 2,
+        "image": "https://www.duankita.com/images/upload/khong-gian-ngoai-troi-kita-group-vinh-long-se-that-dac-biet-nho-noi-that-dep-mat_1668740556.jpg",
+        "title": "Dubai mall",
+        "name": "Wood Flooring"
+    },
+    {
+        "id": 3,
+        "image": "https://atcfurniture.vn/wp-content/uploads/2020/04/nen-chon-mua-ban-ghe-ngoai-troi-tai-nha-san-xuat-noi-that-ngoai-troi.jpg",
+        "title": "King Road Offices",
+        "name": "Outdoor Flooring"
+    },
+    {
+        "id": 4,
+        "image": "https://noithatmanhhe.vn/media/21946/2-thiet-ke-noi-that-phong-bep-lon-noi-that-manh-he.jpg",
+        "title": "Beach Tower Alupang",
+        "name": "Wood Flooring"
+    }
+  ]
+}
