@@ -1,8 +1,7 @@
-
 .header-container {
   width: 100%;
   margin: 0 auto;
-  max-width: 1400px;
+  max-width: 1200px;
   height: 70px;
   line-height: 70px;
 }
@@ -10,14 +9,40 @@
   display: block;
   margin: 30px auto;
 }
-.nav-icon {
-  display: flex;
-  align-items: center;
-  position: relative;
+.header-main {
+  z-index: 1;
+  width: 100%;
+  background-color: #fff;
 }
-.nav-list {
-  display: flex;
-  margin-bottom: 20px;
+.fixed{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  background-color: #fff;
+  transition: 0.5s ease;
+  z-index: 1;
+  animation-name: slidein;
+  animation-duration: 2s;
+}
+.list-menu {
+  transition: 0.5s;
+}
+@keyframes slidein {
+  from {
+    opacity: 0;
+    transform: translateY(-30%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.active {
+  color: blue;
+  padding-bottom: 4px;
+  border-bottom: 3px solid blue;
 }
 .nav-number {
   position: absolute;
@@ -41,4 +66,34 @@
   line-height: normal;
   padding-left: 4px;
   margin-top: -1px;
+}
+.nav-item,
+.nav-list {
+  display: flex;
+}
+.nav-item-list {
+  padding: 0 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-hotline {
+  width: 100%;
+  max-width: 200px;
+  margin: auto 0;
+  height: 50px;
+  background-color: rgb(245, 159, 74);
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.nav-hotline a {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  display: block;
+}
+.nav-hotline:hover {
+  background-color: rgb(192, 139, 85);
 }

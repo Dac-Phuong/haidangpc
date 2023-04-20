@@ -3,49 +3,8 @@
   height: 100%;
   max-width: 100%;
 }
-.main{
+.main {
   width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
-}
-.main-product {
-  width: 100%;
-  max-width: 1400px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-}
-.hr{
-  width: 7%;
-  height: 3px;
-  background-color: #C4C4C4;
-  margin: 0 auto;
-  margin-top: 10px;
-}
-.text-product{
-  margin: 20px auto;
-  width: 40%;
-}
-.wrap-products{
-  width: 100%;
-  max-width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.col-products{
-  width: calc(25% - 15px);
-  justify-content: space-between;
-}
-.title-product{
- 
-}
-.btn-category-all{
-  margin: 0 auto;
-  width: 100%;
-  max-width: 100px;
-  height: 40px;
-  text-align: center;
-  background-color: black;
-  line-height: 40px;
-  color: white;
 }

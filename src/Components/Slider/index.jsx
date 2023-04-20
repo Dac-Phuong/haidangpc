@@ -19,29 +19,14 @@ function Sliders() {
         <div className="relative">
           <div>
             <img
-              src={require("../../acssets/background/background.png")}
+              src={require("../../image/banner/background.png")}
               alt=""
               decoding="async"
               loading="lazy"
               width="100%"
             />
           </div>
-          <div className="heading items-center pl-[40px] pr-[40px] pt-[40px]">
-            <h2 className="font-bold text-3xl text-white">
-              New Greneration Ceramic Tile
-            </h2>
-            <p className="heading-text pt-[20px] text-white ">
-              Penatibus sem vitae mollis luctus mi tellus. Maximus eu eleifend
-              aptent dapibus metus maecenas consequat. Elementum interdum a
-              semper. Netus nullam eros nisi volutpat nibh ex ultricies.
-              Pharetra sagittis sit aliquet at. Magna nam platea justo.
-            </p>
-            <div className="btn">
-              <button className=" w-full  h-full text-[10px] font-bold">
-                LEARN MORE
-              </button>
-            </div>
-          </div>
+       
         </div>
       
       </Slider>

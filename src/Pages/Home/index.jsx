@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import Sliders from "../../Components/Slider";
-import data from "../../data/data.json";
+import Smartdevice from "./../Smartdevice/index.jsx";
 import "./style.css";
 
 const Home = () => {
@@ -9,6 +9,7 @@ const Home = () => {
       <div>
         <Sliders />
         <div className="main">
+          <Smartdevice />
         </div>
       </div>
     </div>
